@@ -1,0 +1,150 @@
+body{
+  margin: 0%;
+}
+
+nav{
+  background-color: #65000b;
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;  
+  position: sticky;
+  gap: 20vw;
+  text-align: center;
+  display: flex;
+ 
+a{
+  color: white;
+  text-decoration: none;
+}
+}
+
+h1{
+  text-align: center;
+  color: #621d1D;
+  font-size: 5rem;
+
+}
+h2{
+  text-align: center;
+  color: #621d1D;
+  font-size: 2rem;
+}
+
+
+.love{
+    box-shadow: 0 .5rem 1rem #75392c;
+    margin: 5%;
+}
+
+.blog{
+  box-shadow: 0 .5rem 1rem #75392c; 
+  transition: transform 0.3s ease-in-out;
+  margin: 4%;
+}
+
+.blog:hover{
+  transform: scale(1.1);
+  box-shadow: #75392c;
+}
+.love:hover{
+  transform: scale(1.1);
+  box-shadow: #75392c;
+}
+.Trevor{
+  display: flex;
+  gap: 10vw;
+}
+#quote1{
+  box-shadow: 0 .5rem 1rem #75392c; 
+  transition: transform 0.3s ease-in-out;
+  margin: 4%;
+  font-size: 2rem;
+  text-align: center;
+
+  p{
+    margin-top: 20%;
+  }
+}
+
+
+
+.family{
+  display: flex;
+  margin: 4%;
+  gap: 8vw;
+  font-size: 1.5rem;
+  top: 5%;
+
+  #image-1{
+    margin-top: 6%;
+  }
+
+}
+
+#image{
+  width: 40vw;
+  height: 70vh;
+}
+
+.image-1{
+  position: relative;
+  left: 5vw;
+}
+
+
+
+.blog1{
+  display: flex;
+  gap: 8vw;
+  font-size: 1.5rem;
+  margin-left: 4%;
+  top: 5%;
+
+  #image-1{
+    margin-left: 5%;
+  }
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+
+}
+footer{
+  background-color: #420303;
+  color: white;
+  font-size: 1rem;
+  height: 30vh;
+  display: block;
+
+  .bottom{
+    
+    text-align: center;
+    border: solid;
+    border-top:100% ;
+    border-bottom: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    border-right:0cm ;
+    border-left: 0cm;
+
+  }
+  h5{
+    font-size: 1rem;
+  }
+
+}
+.bottom{
+  margin-bottom: 0%;
+}
+
+@media only  screen {
+  
+}
+
+
